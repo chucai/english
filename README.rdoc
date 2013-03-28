@@ -1,0 +1,8 @@
+=== 英语邮件助手
+
+方便写邮件，尽量减少邮件中出现的语法和错词，错句的问题。
+
+# 搜索方案
+https://github.com/outoftime/sunspot
+# 启动搜索服务器 
+bundle exec rake sunspot:solr:start # or sunspot:solr:run to start in foreground
