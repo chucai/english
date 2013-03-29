@@ -26,6 +26,9 @@ gem 'jquery-rails'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
 
+#css
+gem 'bootstrap-sass', '~> 2.3.1.0'
+
 group :development do
   gem 'quiet_assets', "1.0.1"
   gem 'pry'

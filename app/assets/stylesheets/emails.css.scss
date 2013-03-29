@@ -1,21 +1,18 @@
-// Place all the styles related to the emails controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-.row-fluid {
-  width: 99%;
-	.span8 {
-		width: 60%;
-		float: left;
-	}
-	.span7 {
-		width: 40%;
-		float: left;
-	}
-	a {
-		text-decoration: none;
+body {
+	padding-top: 60px;
 
-		&:hover {
-			text-decoration: none;
-		}
+	#main {
+		height: 530px;
 	}
+}
+.box {
+	.box-title {
+		border-bottom: 1px solid #DDD;
+	}
+	.box-actions {
+		padding: 5px 0 5px 100px;
+	}
+}
+#body {
+	margin-top: 10px;
 }

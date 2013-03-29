@@ -103,7 +103,23 @@
 			"file": "app/assets/javascripts/emails.js.coffee",
 			"settings":
 			{
-				"buffer_size": 69,
+				"buffer_size": 471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/emails/display.html.erb",
+			"settings":
+			{
+				"buffer_size": 448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/emails_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2302,
 				"line_ending": "Unix"
 			}
 		}
@@ -420,20 +436,76 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 69,
+						"buffer_size": 471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								69,
-								69
+								451,
+								309
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/emails/display.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/emails_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -486,6 +558,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"emailscon",
+				"app/controllers/emails_controller.rb"
+			],
+			[
+				"disl",
+				"app/views/emails/display.html.erb"
+			],
 			[
 				"email.js",
 				"app/assets/javascripts/emails.js.coffee"

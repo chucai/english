@@ -1,21 +1,28 @@
-<div class="row-fluid">
-<div class="span8">
-<%= form_tag(check_emails_path) do %>
-  <%=text_area_tag 'body', @body, :rows => 10, :cols => 90 %><br/>
-  <%= submit_tag "Check" %>
-<% end %>
-
-<%=link_to "增加语料", new_email_path %>		
-</div>
-<div class="span7">
-	匹配列表
-	<hr/>
-	<div  id="match-results">
-		<% @results.each do |item| %>
-			<p>
-				<%=link_to item.content.slice(0..256), email_path(item.target_id) %>
-			</p>
-		<% end -%>
+<div class="row">
+	<div class="span8">
+		<%= form_tag(check_emails_path) do %>
+		  <%=text_area_tag 'body', @body, :rows => 20, :class => "span8" %>
+		<% end %>
 	</div>
-</div>
+	<div class="span4">
+	<!-- 	<div class="box">
+			<p class='box-actions'>
+				<%=link_to "增加语料", new_email_path, :class => 'btn btn-primary btn-large' %>
+			</p>
+		</div> -->
+		<div class="box">
+			<div class="box-title">
+				<h4>匹配列表</h4>
+			</div>
+			<div class="box-body">
+				<div  id="match-results">
+					<% @results.each do |item| %>
+						<p>
+							<%=link_to item.content.slice(0..256), email_path(item.target_id) %>
+						</p>
+					<% end -%>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

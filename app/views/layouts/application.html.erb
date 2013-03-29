@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>English</title>
+  <title>英语邮件助手</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="/">首页</a></li>
+            <li><%=link_to "增加语料", new_email_path %></li>
+          </ul>
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">英语邮件助手</a>
+        </div>
+      </div>
+    </div>
 
-<%= yield %>
+    <div class="container" id="main">
+      <div class="content">
+        <div class="row">
+          <%= yield %>
+        </div><!--/row-->
+      </div><!--/content-->
+    </div> <!-- /container -->
 
-</body>
+    <div id="footer">
+      <hr />
+      <div class="row span10">
+      <p class="pull-right">@ 英语邮件助手</p>
+      </div>
+    </div>
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <%= javascript_include_tag "application" %>
+
+  </body>
+
 </html>
