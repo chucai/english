@@ -28,6 +28,8 @@ gem 'sunspot_solr'
 
 #css
 gem 'bootstrap-sass', '~> 2.3.1.0'
+gem 'bootstrap_helper'
+gem 'will_paginate'
 
 group :development do
   gem 'quiet_assets', "1.0.1"
