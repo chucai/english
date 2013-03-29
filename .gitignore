@@ -16,3 +16,6 @@
 
 # solr
 /solr/data/**
+
+# config
+/config/database.yml
