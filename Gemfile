@@ -28,8 +28,9 @@ gem 'sunspot_solr'
 
 #css
 gem 'bootstrap-sass', '~> 2.3.1.0'
-gem 'bootstrap_helper'
-gem 'will_paginate'
+gem 'simple_form'
+gem 'bootstrap_helper', '2.1.0'
+gem 'will_paginate', '3.0.3'
 
 group :production do
   gem 'passenger'
